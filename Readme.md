@@ -39,7 +39,7 @@ After installing, the `tsk` command is available globally.
 
 ```bash
 git clone https://github.com/yourname/getShiDone.git
-cd tsk
+cd getShiDone
 pip install .
 ```
 
@@ -47,7 +47,7 @@ pip install .
 
 ```bash
 git clone https://github.com/yourname/getShiDone.git
-cd tsk
+cd getShiDone
 pip install -r requirements.txt
 python todo.py
 ```
