@@ -33,15 +33,9 @@ A minimal, aesthetic task manager for the terminal.
 
 ## Installation
 
-### Option 1 — pip (recommended)
-
-```bash
-pip install tsk-cli
-```
-
 After installing, the `tsk` command is available globally.
 
-### Option 2 — from source
+### Option 1 — from source
 
 ```bash
 git clone https://github.com/yourname/tsk.git
@@ -49,7 +43,7 @@ cd tsk
 pip install .
 ```
 
-### Option 3 — no install (run directly)
+### Option 2 — no install (run directly)
 
 ```bash
 git clone https://github.com/yourname/tsk.git
