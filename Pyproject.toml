@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name        = "tsk-cli"
+version     = "1.0.0"
+description = "A minimal, aesthetic CLI task manager."
+readme      = "README.md"
+license     = { text = "MIT" }
+requires-python = ">=3.10"
+
+keywords = ["cli", "todo", "task", "terminal", "productivity"]
+
+dependencies = [
+    "typer>=0.12",
+    "rich>=13",
+]
+
+[project.scripts]
+tsk = "todo:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["todo*"]
